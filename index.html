@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>eGrocery Store</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo"> <span>RK</span>Grocery </a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#popular-bundle-pack">Menu & Pricing</a></li>
+        <li><a href="#download-app">About Us</a></li>
+      </ul>
+      <!--right-nav-(cart-like)-->
+      <div class="right-nav">
+        <!--like----->
+        <a href="#" class="like">
+          <i class="far fa-heart"></i>
+          <span>0</span>
+        </a>
+        <!--cart----->
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img src="D:\eGrocery\images/bg-1.png" class="bg-1" alt="bg" />
+      <img src="D:\eGrocery\images/bg-2.png" class="bg-2" alt="bg-2" />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Order Your daily Groceries</h1>
+        <strong>#Free Delivery</strong>
+        <!--search-box------>
+        <form action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search your daily groceries"
+            name="search"
+            required
+          />
+          <!--btn------->
+          <input type="submit" class="search-btn" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+      </div>
+      <!--box-container---------->
+      <div class="category-container">
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.-2QdepLpzF3_krchZtFKpQAAAA&pid=Api&P=0&h=180" alt="Vegetables" />
+          <span>Vegetables</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.9wDh8gCt5nKh6Z9jFMTqVAAAAA&pid=Api&P=0&h=180" alt="Fish" />
+          <span>Oils</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.vr0_gUe3MyZept8krFSZKgHaE3&pid=Api&P=0&h=180" alt="Fish" />
+          <span>Beauty</span>
+        </a>
+        <a href="#" class="category-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.O3uvWpaA3WgrHYZLnSFTbgHaGA&pid=Api&P=0&h=180" alt="Fish" />
+          <span>Hair Oil</span>
+        </a>
+        
+        <a href="#" class="category-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.kP-iQ6A4JXV21pL3GJivlgHaEK&pid=Api&P=0&h=180" alt="Fish" />
+          <span>Grocery</span>
+        </a>
+      </div>
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+      <!--heading----------->
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+        <span>All</span>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.is7nUh3T6JJ8mjPQykt-ewHaHa&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Butter</strong>
+          <span class="quantity">100gms</span>
+          <span class="price">54/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.sPCE097uKgMc0_JUxtjOAQHaHa&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Aashirvaad</strong>
+          <span class="quantity">5 KG</span>
+          <span class="price">265/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://m.media-amazon.com/images/I/51GyUUKe-0L.jpg" alt="apple" />
+          <strong>Fortune</strong>
+          <span class="quantity">1 litre</span>
+          <span class="price">125/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.njq3TTQrnh-vdGfYIlc4eQHaE7&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Gingger</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">100/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="http://healthyvegrecipes.com/wp-content/uploads/2014/08/IMG_1789.jpg" alt="apple" />
+          <strong>Chilli</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">50/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.K3Fp2kIxYK8Wf-UJMn9V4QHaEs&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Onion</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">70/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.zB7AATBDNYVwv3rUfXbYcwHaE8&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Patato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">30/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.8hwBJA90wuzLZqI1mC1mXgHaEr&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Garlic</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">50/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.Qu6NboPBHIUT_xNNfM7k6QHaFj&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Tamato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">80/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+      <!--heading-------------->
+      <div class="product-heading">
+        <h3>Menu & Pricing</h3>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse1.explicit.bing.net/th?id=OIP.6MBVGTMuIjxloakwSb5pFQHaHa&pid=Api&P=0&h=180" alt="pack" />
+          <strong>Almomd OIl</strong>
+          <span class="quantity">Almond Hair Oil-with Almond,Vitamin E and Soya Protein(100ml)
+
+          </span>
+          <span class="price">65/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.ogqFL5k6SLFKZPdndrvPLgHaHa&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Life Boy</strong>
+          <span class="quantity">Brand:life Buoy
+            Life Buoy 100% Stronger and Germ Protector(125g)</span>
+          <span class="price">36/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.j3JEGsL7zwPFYeHc4vhT_gHaHa&pid=Api&P=0&h=180" alt="apple" />
+          <strong>ARIEL</strong>
+          <span class="quantity">Brand:Ariel
+            Ariel Perfect Wash Detergent Powder(500g)</span>
+          <span class="price">20/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.XpZeoaTf4-UdRCKehuDN5wHaHa&pid=Api&P=0&h=180" alt="pack" />
+          <strong>Chandrika Soap</strong>
+          <span class="quantity">Chandrika Ayurveda soap(75g)</span>
+          <span class="price">40/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.Ab7GqGJqHZoqU4K21ixE2QHaE-&pid=Api&P=0&h=180" alt="pack" />
+          <strong>Coconut Oil</strong>
+          <span class="quantity">Lemone, Tamato,Brand:Parchute
+            Parachute Coconut Oil(200ml) Patato,+4</span>
+          <span class="price">87/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.uCWulvzI8RySUREJ9E5zUQHaEh&pid=Api&P=0&h=180" alt="pack" />
+          <strong>RIN Soap</strong>
+          <span class="quantity">Brand:RIN
+            Rin Deteregent Bar(110g)</span>
+          <span class="price">20/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <div class="product-box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.sMWxvRfoXHTdIOw-BHutxQAAAA&pid=Api&P=0&h=180" alt="pack" />
+          <strong>Karthika Shampoo</strong>
+          <span class="quantity">Brand:Karthika
+            Karthika Hairfall Shield shampoo(175ml)</span>
+          <span class="price">50/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse2.explicit.bing.net/th?id=OIP.-BfRxbvxaVQPeal2PikNVAHaEo&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Lady-Fingers</strong>
+          <span class="quantity">Fresh LadyFingers (500g)</span>
+          <span class="price">16/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.ZAx3QFCoApWP_3skAc2WqgHaHa&pid=Api&P=0&h=180" alt="apple" />
+          <strong>Brinjal</strong>
+          <span class="quantity">resh Brinjals.Brinjal is used to cook variety of delicious dishes (1kg)</span>
+          <span class="price">40/-</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+      <!--heading---------------->
+      <div class="client-heading">
+        <h3>About Us</h3>
+      </div>
+      <!--box-container---------->
+      <div class="client-box-container">
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.kP-iQ6A4JXV21pL3GJivlgHaEK&pid=Api&P=0&h=180" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Our Story</strong>
+              <span></span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            A Grocery Store is a self-service shop offering a wide variety of food, beverages and household products, organized into sections.
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.civ9s0ZAw47x3tsIUK-ZvgHaHl&pid=Api&P=0&h=180" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Our Vision</strong>
+              <span></span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            However, if we want to go for grocery shopping, we should do some little but important things. First, we have to find out what are needed to buy. We can search in our closets, shelves, kitchen or refrigerator to do so.
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.ztWUmYl3SQ9B9UH856tKPQHaHa&pid=Api&P=0&h=180" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Quality Products Since 2008</strong>
+              <span></span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Quality products
+Affordable price
+To meet customers needs
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+   
+        <!--btns------->
+        <div class="download-btns">
+          <a href="#"><img src="D:\eGrocery/images/appstore-btn.png" alt="" /></a>
+          <a href="#"><img src="D:\eGrocery/images/googleplay-btn.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+          <a href="#"><span>RK</span>Grocery</a>
+          <!--social----->
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Product</strong>
+          <ul>
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Soaps</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+          </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Category</strong>
+          <ul>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Grocery Items</a></li>
+            <li><a href="#">Oils</a></li>
+          </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : 7569326852</a></li>
+            <li><a href="#">Email : vasanthikonakala24@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
